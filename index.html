@@ -10,6 +10,7 @@
 	<!-- 添加 favicon icon -->
 	<meta name="renderer" content="webkit">
 	<title>Document</title>
+	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/public.css" />
 	<script src="js/font-size.js"></script>
 	<script src="js/fastclick.js"></script>
@@ -147,25 +148,76 @@
 			<h2 class="c623b94">国际顶级半永久专家</h2>
 			<h2>一对一辅导</h2>
 			<p>包教 / 包会 / 包结业 / 包复学 / 辅创业，带你走上人生巅峰</p>
-			<div class="content">
-				<div class="pic"><img src="img/hico16.png" alt=""></div>
-				<div class="info">
-					<div class="name">
-						雨洁<small>부원장</small>
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="content">
+							<div class="pic"><img src="img/hico16.png" alt=""></div>
+							<div class="info">
+								<div class="name">
+									雨洁<small>부원장</small>
+								</div>
+								<div class="sub-name">韩国JHN资深彩妆导师</div>
+								<p>AI MI时尚美学创始人 </p>
+								<p>亚洲美妆节特邀嘉宾</p>
+								<p>韩国MBC化妆学院留学进修</p>
+								<p>专注高端化妆十余年</p>
+								<p>国家高级化妆师</p>
+								<p>韩国半永久协会注册会员</p>
+								<div class="btn-group">
+									<a href="#">了解更多</a>
+									<a href="#">咨询老师</a>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="sub-name">韩国JHN资深彩妆导师</div>
-					<p>AI MI时尚美学创始人 </p>
-					<p>亚洲美妆节特邀嘉宾</p>
-					<p>韩国MBC化妆学院留学进修</p>
-					<p>专注高端化妆十余年</p>
-					<p>国家高级化妆师</p>
-					<p>韩国半永久协会注册会员</p>
-					<div class="btn-group">
-						<a href="#">了解更多</a>
-						<a href="#">咨询老师</a>
+					<div class="swiper-slide">
+						<div class="content">
+							<div class="pic"><img src="img/hico16.png" alt=""></div>
+							<div class="info">
+								<div class="name">
+									雨洁<small>부원장</small>
+								</div>
+								<div class="sub-name">韩国JHN资深彩妆导师</div>
+								<p>AI MI时尚美学创始人 </p>
+								<p>亚洲美妆节特邀嘉宾</p>
+								<p>韩国MBC化妆学院留学进修</p>
+								<p>专注高端化妆十余年</p>
+								<p>国家高级化妆师</p>
+								<p>韩国半永久协会注册会员</p>
+								<div class="btn-group">
+									<a href="#">了解更多</a>
+									<a href="#">咨询老师</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="content">
+							<div class="pic"><img src="img/hico16.png" alt=""></div>
+							<div class="info">
+								<div class="name">
+									雨洁<small>부원장</small>
+								</div>
+								<div class="sub-name">韩国JHN资深彩妆导师</div>
+								<p>AI MI时尚美学创始人 </p>
+								<p>亚洲美妆节特邀嘉宾</p>
+								<p>韩国MBC化妆学院留学进修</p>
+								<p>专注高端化妆十余年</p>
+								<p>国家高级化妆师</p>
+								<p>韩国半永久协会注册会员</p>
+								<div class="btn-group">
+									<a href="#">了解更多</a>
+									<a href="#">咨询老师</a>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
+				<div class="swiper-pagination"></div>
+<!-- 				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+ -->			</div>
 		</section>
 		<section class="works">
 			<h2>学员作品集</h2>
@@ -303,6 +355,16 @@
 		</a>
 	</div>
 	<script src="js/jquery-3.1.0.min.js"></script>
+	<script src="js/swiper-3.3.1.jquery.min.js"></script>
+	<script>
+		var mySwiper = new Swiper ('.swiper-container', {
+			loop: true,
+			pagination: '.swiper-pagination',
+			autoplay:5000,
+			// nextButton: '.swiper-button-next',
+			// prevButton: '.swiper-button-prev',
+		})    
+	</script>
 </body>
 </html>
 
